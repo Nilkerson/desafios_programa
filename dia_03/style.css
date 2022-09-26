@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg,
+      rgba(110, 9, 152, 1) 0%,
+      rgba(13, 24, 121, 1) 51%,
+      rgba(0, 215, 255, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: lightgray;
+  text-shadow: 1px 1px 5px black;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+  background-color: lightgray;
+  width: 300px;
+  padding: 25px;
+
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+label {
+  align-self: flex-start;
+  font-size: 1.2rem;
+
+  padding: 0 0 0 10px;
+}
+
+input,
+output {
+  background-color: #fff;
+
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 5px 12px;
+
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 1px 5px gray;
+}
+
+output {
+  height: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+
+button,
+#buscar {
+  padding: 10px 20px;
+
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 1px 5px gray;
+
+  font-size: 1.2rem;
+}
+
+#calcular {
+  background-color: #22a5ff;
+}
+
+#limpar {
+  background-color: #fff;
+}
