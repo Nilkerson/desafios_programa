@@ -35,7 +35,7 @@ btn_Buscar.addEventListener("click", function busca() {
         maior = format_number3;
     }
     
-    document.getElementById("resultado").value = `Menor:${menor} / Maior: ${maior} `;
+    document.getElementById("resultado").value = `Menor:  ${menor} / Maior:  ${maior} `;
 });
 
 btn_Limpar.addEventListener("click", function limpar() {
